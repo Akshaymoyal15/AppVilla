@@ -1,0 +1,607 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* heading secation strt */
+body{
+    text-transform: capitalize;
+}
+header{
+background-color: rgb(255, 104, 129);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 100px;
+}
+
+.logo .logo-part2{
+    width: 150px;
+
+}
+.logo-part{
+    display: none;
+}
+
+.menu ul{
+    list-style: none;
+    color: white;
+
+}
+.menu li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.btn button{
+padding: 15px 30px;
+border-radius: 5px;
+border:2px solid white;
+background-color: rgb(255, 104, 129);
+color: white;
+text-transform:capitalize ;
+font-weight: 600;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+gap: 10px;
+
+
+    
+}
+
+
+
+
+/* header section end*/
+
+
+/* hero section strt*/
+.hero{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgb(255, 104, 129);
+    gap: 20px;
+}
+.app{
+    padding:10px 30px;
+}
+.app h1{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.app p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.btnn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.store{
+    padding: 12px 35px;
+    border-radius: 5px;
+    border : none;
+    background-color:white ; 
+    color:rgb(255, 104, 129);  
+    font-size: 15px;
+    
+    
+ 
+    
+}
+.app .google{
+    padding: 12px 28px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: rgb(255, 104, 129) ;
+    font-size: 15px;
+    color: white;
+}
+.feature{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px 420px;
+    background-color: rgb(247, 243, 243);
+    
+}
+.feature h6{
+    color:  rgb(255, 104, 129);
+    font-size:17px ;
+
+
+    margin-top: 80px;
+}
+.feature h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+    line-height: 42px;
+    text-transform: capitalize;
+   
+    font-weight: 900;
+}
+.feature p{
+    font-size: 20px;
+    color: rgb(102, 97, 97);
+    width: 100%;
+}
+
+.service{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 50px;
+   background-color: rgb(247, 243, 243); 
+    
+    
+}
+.service-part i{
+    font-size: 50px;
+    background-color: rgb(255, 104, 129);
+    color: white;
+    margin-bottom:20px ;
+    border-radius: 5px;
+}
+.service .service-part{
+    width: 30%;
+    height: auto;
+    
+    text-align: left;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 6px;
+   
+    border: 1px solid #eee;
+
+}
+.service .service-part h3{
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 20px;
+}
+
+
+.service-part p{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+
+.customers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  rgb(247, 243, 243); 
+
+}
+.customers .left{
+    padding: 100px;
+    width: 50%;
+}
+
+.customers i{
+    margin-bottom: 20px;
+    font-size:35px;
+    padding: 15px 10px 10px 10px;
+
+
+    text-align: center;
+
+    border-radius: 5px;
+    background-color:  rgb(255, 104, 129);
+    color: white;
+    font-weight: 100;
+}
+
+.left h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #081828;
+    line-height: 42px;
+
+}
+.left p{
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.left .get{
+    padding: 15px 30px;
+border-radius: 5px;
+border:2px solid white;
+background-color: rgb(255, 104, 129);
+color: white;
+text-transform:capitalize ;
+font-weight: 600;
+
+
+}
+
+.customers .right{
+    padding: 30px;
+}
+
+
+.customers2{
+   flex-direction: row-reverse;
+}
+
+
+
+.user{
+    background-color: rgb(255, 104, 129) ;
+    color: white;
+    text-align: center;
+    
+    padding: 60px 10px;
+}
+.user h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.user p{
+    font-size: 20px;
+    font-weight:500 ;
+    margin-bottom: 20px;
+}
+
+.sub{
+    display: flex;
+    justify-content: space-evenly ;
+    padding: 20px 200px;
+    
+}
+.sub .downloads h3{
+   font-weight: 900;
+   font-size: 35px; 
+    margin-bottom: 7px;
+}
+.downloads p{
+    font-size:large ;
+}
+ .price  {
+    text-align: center;
+   padding: 50px;
+   
+ }
+ .money{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+ }
+
+ .price h6{
+    font-size: 20px;
+    color:  rgb(255, 104, 129);
+    margin-bottom: 10px;
+ }
+ .price h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+ }
+ .price p{
+    font-size: 17px;
+    color: rgb(117, 113, 113);
+
+ }
+.money{
+    display: flex;
+
+
+}
+.money .doller{
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px 0;
+    box-shadow: .4710613322618883px .7065919983928324px 3.5667151534530963px -.5833333333333333px #ffc8d44f,1.2043746035487857px 1.8065619053231785px 9.119112214719697px -1.1666666666666665px #ffc8d44e,2.414506143104518px 3.6217592146567767px 18.281813978160876px -1.75px #ffc8d44b,4.577066606486914px 6.8655999097303715px 34.655981515895306px -2.333333333333333px #ffc8d446,9.09784094101633px 13.646761411524492px 68.88573721858485px -2.916666666666667px rgba(255, 255, 255, 0.551),20px 30px 151.43315356948756px -3.5px #ffc8d422;
+    text-align: start;
+    border: none;
+}
+.doller h3{
+
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.top{
+    border-bottom: 1px solid lightgray;
+ padding: 20px;
+margin-bottom: 30px; 
+}
+.buttom{
+    padding: 20px;
+}
+
+.doller p{
+    font-size: 17px;
+    margin-bottom: 20px;
+    
+}
+.doller div button{
+    padding: 12px 30px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 25px;
+    
+}
+.doller h1{
+    
+}
+.doller span{
+    font-size: 17px;
+    font-weight: 100;
+    color: rgb(164, 161, 161);
+}
+
+.doller h5{
+    
+    margin-bottom: 20px;
+    
+}
+.doller li{
+    margin-bottom: 10px;
+    list-style: none;
+    text-align: start;
+    color:  rgb(117, 113, 113);
+}
+.mainteam{
+    text-align: center;
+   padding: 20px;
+}
+.mainteam h6{
+    font-size: 17px;
+    color:  rgb(255, 104, 129);
+    margin-bottom: 20px;
+}
+.mainteam h1{
+    font-size: 35px;
+    font-weight:700 ;
+    margin-bottom: 20px
+}
+.mainteam p{
+    font-size: 17[px];
+    color: rgb(131, 129, 129);
+    margin-bottom: 70px ;
+}
+.social-team{
+    width: 33%;
+    border: 1px solid rgb(163, 161, 161);
+    border-radius: 5px;
+}
+.team img{
+    width: 100%;
+}
+
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+   
+}
+.designer p{
+    margin-bottom: 0;
+    color: rgb(255, 104, 129) ;
+}
+.designer{
+    display: flex;
+padding: 35px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.ceo{
+    background-color: rgb(250, 244, 244);
+    padding: 50px 200px;
+    text-align: center;
+
+}
+.ceo p{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.img1{
+width: 150px;
+margin-bottom: 20px;
+}
+.img2{
+    margin-bottom: 10px;
+    width: 50px;
+    border-radius: 50%;
+}
+.ceo h5{
+    font-size: 17px;
+}
+.ceo h6{
+    font-size: 15px;
+}
+
+.install{
+    background-color: rgb(255, 104, 129) ;
+    text-align: center;
+    padding: 100px 200px;
+}
+.install .app p{
+    font-size: 17px;
+}
+.install .btnn {
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+/* media */
+@media only screen and (min-device-width:320px) and (max-device-width:480px ){
+    
+    .activemenu{
+        display: block !important;
+    }
+    .menu{
+       display: none;
+        position: absolute;
+        top: 83px;
+        background-color: rgb(255, 104, 129);
+        
+        transition: linear 1s;
+
+        width: 100%;
+left: 0;
+    }
+
+    
+    .menu li{
+        padding: 20px 20px;
+        font-size: 25px;
+        border-bottom: 1px solid white;
+    
+        display: block;
+
+
+    }
+    
+    .logo-part{
+        display: inline-block;
+        
+       
+    }
+    #hmenu{
+        font-size: 30px;
+        color: white;
+    }
+    header{
+padding: 17px 20px;
+position: relative;
+    }
+
+
+
+.hero{
+   
+    padding: 10px;
+    
+flex-direction:column ;
+}
+.hero img{
+    width: 100%;
+
+}
+
+
+.hero p{
+    line-height: 28px;
+
+}
+.feature{
+    padding: 15px 20px;
+    
+}
+.feature h6,.feature h1, .feature p{
+    margin-bottom: 10px;
+}
+.feature h6{
+    margin-top: 0;
+}
+
+.service{
+    padding: 10px;
+    gap: 20px;
+}
+.service .service-part{
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.customers .right{
+    padding: 15px;
+}
+
+.customers {
+ width: 100%;
+ 
+ flex-direction: column;
+}
+.customers .left{
+    padding: 0 20px;
+    width: 100%;
+}
+.customers .right img{
+ width: 100%;    
+}
+.customers .left i{
+    margin-top: 20px;
+}
+
+.user{
+    padding: 25px 12px;
+}
+.user h1{
+font-size: 25px;
+}
+.user p{
+    font-size: 17px;
+}
+.sub{
+    padding: 0;
+    flex-direction: column;
+}
+.money{
+flex-direction: column;
+}
+.money .doller{
+width: 100%;
+margin-top: 0;
+}
+.price{
+width: 100%;
+padding: 15px;
+}
+.social{
+    flex-direction: column;
+  gap: 20px;
+}
+
+.social-team{
+    width: 100%;
+    
+}
+
+.ceo{
+    padding: 12px 15px;
+}
+
+.install{
+    padding: 10px;
+}
+
+
+
+
+
+}
